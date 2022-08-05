@@ -1,0 +1,45 @@
+# site settings
+title: microstep
+subtitle: 어제보다 나은 오늘
+email: microstep725@gmail.com
+description: 오늘도 무언가 시작하지 못하고 방바닥에 널부러져 있는 당신을 위해</br> 우리는 코칭일 하지 않습니다. 그저 당신의 변화를 위해 같이 고민하고 계획하고 행동까지 함께하는 페이스메이커이자 러닝메이트입니다. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: microstep
+street_address: 대경5길 75 2층
+city: 남구
+state: 대구
+zip_code: 42458
+
+country: 대한민국
+phone: +82 010 6436 5034
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: 
+  GitLab:
+  Google-Plus: 
+  Instagram:
+  LinkedIn: 
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
